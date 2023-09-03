@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: rgb(255, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    gap: 3px;
+}
+
+.container > div:nth-child(1n) {
+    background-color: rgba(229, 255, 0, 0.642);
+}
