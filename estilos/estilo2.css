@@ -17,17 +17,18 @@ body {
 }
 
 .header {
-    grid-column: 1 / -1;
+    grid-column: 1 / 11;
 }
 
 .menu {
-   
+    grid-column: 11;
+    grid-row: 1 / 4;
 }
 
 .content {
-    grid-column: 2 / -1;
+    grid-column: 1 / 11;
 }
 
 .footer {
-    grid-column: 1 / -1; 
+    grid-column: 1 / 11; 
 }
