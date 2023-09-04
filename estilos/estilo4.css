@@ -9,7 +9,7 @@ body {
     display: grid;
     gap: 3px;
     grid-template-columns: [main-start] 1fr [content-start] 5fr [content-end main-end];
-    grid-template-rows: 40px auto 40px;
+    grid-template-rows: [main-start] 40px [content-start] auto [content-end] 40px [main-end];
 }
 
 .container > div:nth-child(1n) {
@@ -17,7 +17,7 @@ body {
 }
 
 .header {
-    grid-column: main-start / main-end;
+    grid-column: main;
 }
 
 .menu {
@@ -25,9 +25,9 @@ body {
 }
 
 .content {
-    grid-column: content-start / main-end;
+    grid-area: content;
 }
 
 .footer {
-    grid-column: main-start / main-end;
+    grid-column: main;
 }
