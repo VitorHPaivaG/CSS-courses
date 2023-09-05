@@ -1,0 +1,30 @@
+* {
+    font-family: sans-serif;
+    background-color: rgb(167, 220, 220);
+}
+
+h1 {
+    color: rgba(128, 0, 128, 0.498)
+}
+
+.container1 {
+    display: grid;
+    border: 2px solid black;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: 100px 100px;
+    height: 37vh;
+    text-align: center;
+    background-color: brown;
+}
+
+.container2 {
+    display: grid;
+    border: 2px solid black;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-rows: 100px 100px;
+    height: 37vh;
+    text-align: center;
+    background-color: brown;
+}
