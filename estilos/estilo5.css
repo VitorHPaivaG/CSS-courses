@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+body, html {
+    height: 80vh;
+    text-align: center;
+    background-color: rgba(153, 171, 165, 0.683);
+}
+
+.container {
+    display: grid;
+    height: 100%;
+    gap: 5px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 100px);
+    border: 2px solid black;
+    justify-content: center;
+    align-content: center;
+}
+
+.container > div:nth-child(1n) {
+    background-color: aquamarine;
+}
