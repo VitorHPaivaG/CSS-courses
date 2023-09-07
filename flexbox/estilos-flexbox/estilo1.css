@@ -9,11 +9,15 @@ html, body {
 .container {
     border: 5px solid rgb(28, 25, 50);
     display: flex;   
-    justify-content: flex-end;
+    
 }
 
-.home {
-    margin-right: auto;
+.container > div {
+    flex: 1;
+}
+
+.container > .search {
+    flex: 2;
 }
 
 .container > div {
@@ -24,14 +28,10 @@ html, body {
 
 }
 
-.container > div:nth-child(1) {
+.container > div:nth-child(1n) {
     background-color: rgb(60, 114, 96);
 }
 
-.container > div:nth-child(2) {
+.container > div:nth-child(2n) {
     background-color: rgb(104, 86, 65);
-}
-
-.container > div:nth-child(3) {
-    background-color: rgb(61, 108, 92);
 }
