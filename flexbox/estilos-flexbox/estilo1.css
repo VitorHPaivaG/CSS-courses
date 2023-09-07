@@ -12,12 +12,12 @@ html, body {
     
 }
 
-.container > div {
+.home {
     flex: 1;
 }
 
-.container > .search {
-    flex: 2;
+.logout {
+    flex: 1;
 }
 
 .container > div {
