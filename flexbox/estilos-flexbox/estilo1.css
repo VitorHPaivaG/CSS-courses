@@ -10,11 +10,21 @@ html, body {
 .container {
     border: 5px solid rgb(28, 25, 50);
     display: flex;   
-    flex-wrap: wrap;
+}
+
+.home {
+    flex: 1 1 200px;
+}
+
+/*quando estiverem em 200px ou menos, encolheram e cresceram 
+de forma igualitaria, e quando chegarem em 200px, o logout
+crescera 10x mais rápido do que o home*/
+
+.logout {
+    flex: 10 1 200px;
 }
 
 .container > div {
-    width: 300px;
     padding: 10px;
     text-align: center;
     font-size: 2em;
