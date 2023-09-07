@@ -12,16 +12,16 @@ html, body {
     display: flex;   
 }
 
-.home {
-    flex: 1 1 200px;
+.item1 {
+    order: 1;
 }
 
-/*quando estiverem em 200px ou menos, encolheram e cresceram 
-de forma igualitaria, e quando chegarem em 200px, o logout
-crescera 10x mais rápido do que o home*/
+.item2 {
+    order: 0;
+}
 
-.logout {
-    flex: 10 1 200px;
+.item3 {
+    order: -1;
 }
 
 .container > div {
