@@ -8,8 +8,12 @@ html, body {
 
 .container {
     border: 5px solid rgb(28, 25, 50);
-    display: flex;
-    justify-content: space-between;
+    display: flex;   
+    justify-content: flex-end;
+}
+
+.home {
+    margin-right: auto;
 }
 
 .container > div {
